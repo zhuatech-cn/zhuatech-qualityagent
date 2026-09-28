@@ -1,5 +1,7 @@
 # QualityAgent · 知华科技质量改进智能体
 
+[简体中文](README.md) | [English](README.en.md)
+
 > 从异常现象出发，沿着证据形成可验证的原因假设。
 >
 > [知华科技（上海如静知华信息科技有限公司）官网](https://www.zhuatech.cn/) · 企业 AI 转型、Agent 定制、私有化部署与软件项目外包
