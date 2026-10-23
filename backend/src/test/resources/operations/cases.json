@@ -1,0 +1,68 @@
+[
+  {
+    "patch": {},
+    "expected": {
+      "decision": "REVIEW",
+      "dispositionCost": "#1600"
+    },
+    "error": false
+  },
+  {
+    "patch": {
+      "quarantine": "19"
+    },
+    "expected": {
+      "decision": "HOLD",
+      "unassignedDefects": "#1"
+    },
+    "error": false
+  },
+  {
+    "patch": {
+      "criticalOpen": "YES"
+    },
+    "expected": {
+      "decision": "HOLD"
+    },
+    "error": false
+  },
+  {
+    "patch": {
+      "quarantine": "21"
+    },
+    "expected": {},
+    "error": true
+  },
+  {
+    "patch": {
+      "rework": "80",
+      "quarantine": "0"
+    },
+    "expected": {
+      "decision": "PASS",
+      "dispositionCost": "#1800"
+    },
+    "error": false
+  },
+  {
+    "patch": {
+      "budget": "1500"
+    },
+    "expected": {
+      "costOverBudget": "#100"
+    },
+    "error": false
+  },
+  {
+    "patch": {
+      "scrap": "0",
+      "rework": "100",
+      "quarantine": "0"
+    },
+    "expected": {
+      "decision": "PASS",
+      "dispositionCost": "#1000"
+    },
+    "error": false
+  }
+]
