@@ -1,5 +1,9 @@
 [简体中文](README.md) | **English**
 
+## Functional update: Defect Pareto cumulative analysis
+
+Builds a count-based Pareto table and cumulative contribution, identifying categories needed to cover the first 80 percent of defects. Signed-in users can edit inputs and export real computed results. See [API, examples and limitations](docs/AI_OPERATIONS_UPGRADE_20261023.md). No external model calls or automatic business changes; existing licensing and contacts remain unchanged.
+
 # ZhuaTech QualityAgent
 
 > A source-available enterprise project by [ZhuaTech](https://www.zhuatech.cn/) for manufacturing planning, execution, quality, and traceability.
